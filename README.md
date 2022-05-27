@@ -1,1 +1,1 @@
-readme at the repo
+this repos shows shell basics
