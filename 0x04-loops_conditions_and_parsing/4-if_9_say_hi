@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#print "best shool" 10 times and add "hi" at the ninth iteration
+i=0
+while ((i <= 10))
+do
+	if ((i == 9))
+	   then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((i++))
+done
