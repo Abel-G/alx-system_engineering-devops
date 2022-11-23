@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#print "Best School" 10 times
+LIST=9
+i=0
+for i in "$LIST"; do
+	echo "Best School"
+done
