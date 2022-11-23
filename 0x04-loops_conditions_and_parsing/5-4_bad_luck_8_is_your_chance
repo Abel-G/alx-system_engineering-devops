@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#print "bad luck " @4th "good luck" @8th and "best school" @rest of the loop
+#print "bad luck " at 4 "good luck" at 8 and "Best school " rest of iteration
 i=0
 while ((i < 10))
 do
