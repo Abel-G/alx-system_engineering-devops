@@ -2,5 +2,5 @@
 #display list of file in current directory
 for entry in *
 do
-	echo "$entry"
+	echo "$entry" | cut -d '-' -f2
 done
