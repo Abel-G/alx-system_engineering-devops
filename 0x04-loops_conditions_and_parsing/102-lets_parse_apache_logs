@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that dispaly the list of ip from apache access log
+awk '{print $1 " " $9}' < apache-access.log
