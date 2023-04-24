@@ -1,0 +1,3 @@
+#ignore .pub files
+*.pub
+school
