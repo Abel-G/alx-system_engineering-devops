@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#starting apache
+service start apache2
