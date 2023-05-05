@@ -4,5 +4,5 @@ sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo echo "Ceci n'est pas une page" > /var/www/html/404_error.html
 error_404='\n\t error_page 404 /404_error.html;\n\tlocation = /404_error.html {\n\t\troot /var/www/html;\n\t\tinternal;\n\t}'
-sudo sed -i "/server_name _;/a \ $error_404" /etc/nginx/sites-enabled/default
+sed -i "/server_name _;/a \ $error_404" /etc/nginx/sites-enabled/default
 sudo service nginx restart
