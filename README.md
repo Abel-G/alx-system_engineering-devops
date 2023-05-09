@@ -1,1 +1,1 @@
-this repos shows shell basics
+load balancing project
