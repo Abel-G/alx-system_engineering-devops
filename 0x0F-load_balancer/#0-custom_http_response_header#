@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that configure nginx on second server and add header
+sudo apt update -y
+sudo apt install -y nginx
+sudo echo "Hello World!" > /var/www/html/index.html
+sudo sed -i "11i\\\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/nginx.conf
+sudo service nginx restart
