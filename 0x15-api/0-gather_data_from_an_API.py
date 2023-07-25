@@ -1,6 +1,7 @@
 import requests as r
 from sys import argv
 
+
 def get_user_todos(employee_id):
     url_user = 'https://jsonplaceholder.typicode.com/users/{}'.format(
         employee_id)
