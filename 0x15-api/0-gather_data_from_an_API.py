@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests as r
 from sys import argv
 
